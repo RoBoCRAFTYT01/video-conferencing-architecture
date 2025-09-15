@@ -3,6 +3,8 @@
 This folder collects useful references, links, and study materials related to **video conferencing and collaboration technologies**.  
 It complements my own notes and cheat sheets in this repository.
 
+- [Notion Document - make it clear](https://www.notion.so/Huawei-Collaboration-26e1bcd19f5680358cdbe4c1063341d7?source=copy_link)
+
 ---
 
 ## 🔗 Official Documentation
