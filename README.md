@@ -43,3 +43,8 @@ cheat-sheets/   → Quick reference files (acronyms, codecs, scenarios)
 study-plan/     → Weekly learning plan + progress log
 resources/      → External references and useful links
 ```
+
+# 📖 License
+
+This repo only contains my own study notes and diagrams.
+Official Huawei courseware (PDFs, slides) are not included here due to copyright.
