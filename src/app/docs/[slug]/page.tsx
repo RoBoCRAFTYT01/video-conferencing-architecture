@@ -1,4 +1,4 @@
-import { getFileContent } from "@/lib/github";
+import { getFileContent } from "../../../lib/github";
 import { remark } from "remark";
 import html from "remark-html";
 

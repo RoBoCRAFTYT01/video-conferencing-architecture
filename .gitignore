@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-source/node_modules
-source/.pnp
+/node_modules
+/.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -11,14 +11,14 @@ source/.pnp
 !.yarn/versions
 
 # testing
-source/coverage
+/coverage
 
 # next.js
-source/.next/
-source/out/
+/.next/
+/out/
 
 # production
-source/build
+/build
 
 # misc
 .DS_Store
