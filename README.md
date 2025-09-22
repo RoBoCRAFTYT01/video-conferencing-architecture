@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="/Images/huawei.png" alt="huawei logo" />
-</div>
+</div> 
 
 This repository is my learning log and study notes for **Huawei Collaboration technologies**.
 
