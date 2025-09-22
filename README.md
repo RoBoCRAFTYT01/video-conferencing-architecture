@@ -1,8 +1,8 @@
 # Collaboration Tech Notes 📚
 
 <div align="center">
-  <img src="/Images/huawei.png" alt="huawei logo" />
-</div> 
+  <img src="/Images/logo.png" alt="huawei logo" />
+</div>
 
 This repository is my learning log and study notes for **Huawei Collaboration technologies**.
 
