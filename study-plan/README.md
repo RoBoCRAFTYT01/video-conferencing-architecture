@@ -34,6 +34,15 @@ The content is split into **parts** instead of weeks, so I can focus on concepts
 - **Part 9: Final Review & Cheat Sheets**  
   Quick references: acronyms, diagrams, Q&A for fast revision.
 
+- **Part 10: DR Produvers**
+  Disaster Recovery (DR) / High Availability (HA)
+
+- **Part 11: Bare Metal server**
+  physical servers used for deploying collaboration applications 
+
+- **Part 12: Software Based-Deployment**
+  Huawei Collaboration applications are installed as software packages
+
 ---
 
 ## 📂 Folder Structure
