@@ -1,5 +1,9 @@
 # Collaboration Tech Notes 📚
 
+<div align="center">
+  <img src="/Images/huawei.png" alt="huawei logo" />
+</div>
+
 This repository is my learning log and study notes for **Huawei Collaboration technologies**.
 
 The focus is on configuration, setup, and usage of Huawei lab tools such as **IdeaHub, Box 610, Camera C200**, and other collaboration endpoints.
