@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📂 src Directory – Project Source Code
+Welcome to the heart of the project! This folder contains all the source code that powers the application 🚀.
+Everything related to the app’s logic, UI, and configuration lives here.
 
-## Getting Started
-
-First, run the development server:
+## 📁 Folder Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+ ├── app/          # Next.js App Router (pages, layouts, routes)
+ ├── lib/          # Utility functions, helpers, services
+ ├── components/   # Shared React components (UI, buttons, cards, etc.)
+ ├── styles/       # Global styles (Tailwind, SASS, or CSS modules)
+ ├── hooks/        # Custom React hooks
+ ├── types/        # TypeScript type definitions and interfaces
+ ├── config/       # Project configuration (API endpoints, constants)
+ └── assets/       # Static assets (images, svgs, fonts)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Development Guide
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Start the dev server
+```bash
+bun dev
+#or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- App will run on http://localhost:3000 🎉
 
-## Learn More
+### 2. Add new routes
+- Create a folder inside src/app/ → example: src/app/docs/page.tsx
+- Next.js will automatically create /docs route.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Add new components
+- Place inside src/components/
+- Import them wherever needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Utilities
+- Place helper functions inside src/lib/.
+- Example: fetchMarkdown.ts for fetching GitHub markdown files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Notes
+- `app/` is mandatory → Next.js won’t run without it.
+- If you want docs to auto-load from GitHub, check the logic inside `lib/github.ts`.
+- Keep config files (`package.json`, `tsconfig.json`, `tailwind.config.ts`) outside `src/` so build tools can find them.
